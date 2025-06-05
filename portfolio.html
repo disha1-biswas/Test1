@@ -1,0 +1,130 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #161212;
+    }
+
+    header {
+      background-color: #b98383;
+      color: #b90606;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    nav {
+      text-align: center;
+      background-color: #d3c8c8;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project {
+      background: rgb(233, 137, 137);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(248, 245, 245, 0.932);
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #e6dcdc;
+      color: rgb(235, 221, 221);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Disha Biswas</h1>
+    <p>Web Developer | Hacker | Designer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p> I'm passionate about creating beautiful,responsive websites while protaecting at the time.</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Work</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Work One</h3>
+        <p>A responsive website built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Project Two</h3>
+        <p>A portfolio template designed to showcase creative work.</p>
+      </div>
+      <div class="project">
+        <h3>Project Three</h3>
+        <p>Interactive dashboard made with React and Chart.js.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Jane Doe. All rights reserved.
+  </footer>
+
+</body>
+</html>
