@@ -1,0 +1,91 @@
+.boxes
+{
+    display: flex;
+    gap: 20px;
+}
+.a
+{
+    border: 2px black solid;
+    width: 250px;
+    height: 330px;
+    text-align: center;
+    padding: 15px;
+}
+.twitterlogo
+{
+    padding-top: 2px;
+    width: 50px;
+}
+.TWITTER
+{
+    padding: 10px 60px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: 100;
+    background-color: rgb(17, 17, 17);
+    letter-spacing: 2px;
+}
+.instalogo
+{
+    width:50px ;
+    padding-top: 2px;
+}
+.instahead
+{
+    text-align: center;
+    font-size: 32px ;
+    color: white;
+}
+.b
+{
+    padding-top:  20px;
+    border: 2px black solid;
+    width: 250px;
+    height: 330px;
+    text-align: center;
+    padding: 15px;
+    background-color: blueviolet;
+
+}
+.instabutton
+{
+    
+    padding-top: 20px;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 20px;
+    color: blueviolet;
+    cursor: pointer;
+    font-weight: 100;
+    background-color: rgb(7, 7, 7);
+    letter-spacing: 2px;  
+}
+.c
+{
+    border: 2px black solid;
+    width: 250px;
+    height: 330px;
+    text-align: center;
+    padding: 15px;
+}
+.ytbutton
+{
+    padding: 10px 60px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(235, 227, 227);
+    cursor: pointer;
+    font-weight: 100;
+    background-color: rgb(17, 17, 17);
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+.youtube
+{padding-top: 2px;
+    width: 50px;}
+.ythead
+{ text-align: center;
+    font-size: 32px ;
+    color: rgb(15, 14, 14);}
