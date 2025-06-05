@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid;
+    width: 500px;
+    margin: auto;
+    height: 40px;
+    color: pink;
+}
+.item2{
+    margin: auto;
+}
+.item1{
+    margin: auto;
+}
+.item5{
+    margin: auto;
+}
